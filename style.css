@@ -1,0 +1,61 @@
+* {
+padding: 0%;
+margin: 0%;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-size: 10px;
+}
+
+.firstimage {
+    background-image:url(/banner-1.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    color: white;
+    text-align: center;
+}
+
+.btwn_images {
+    text-align: center; 
+}
+
+.secondimage {
+    background-image: url(/banner-2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+.button_white {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button_black {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 8px;
+    background-color:rgb(45, 41, 41);
+    text-align: center;
+    color: white;
+}
