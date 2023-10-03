@@ -30,7 +30,6 @@ p {
 .secondimage {
     background-image: url(/banner-2.jpg);
     background-size: cover;
-    position:absolute;
     width: 100%;
     height: 270px;
     object-fit:cover;
